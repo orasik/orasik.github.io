@@ -1,0 +1,18 @@
+baseURL = "https://www.oras.me/"
+languageCode = "en-us"
+title = "Oras Al-Kubaisi"
+theme = "hyde"
+
+[Menus]
+  main = [
+      {Name = "Github", URL = "https://github.com/orasik/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/oras-al-kubaisi-10201727/"},
+      {Name = "Twitter", URL = "https://www.twitter.com/orasik"},
+      {Name = "Flickr", URL = "https://www.flickr.com/orasik"}
+  ]
+
+[params]
+  description = "Software Engineer"
+  themeColor = "theme-base-08"
+  layoutReverse = true
+  googleAnalytics = "UA-66898165-2"

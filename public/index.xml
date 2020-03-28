@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oras blogs</title>
+    <link>https://www.oras.me/</link>
+    <description>Recent content on Oras blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Mar 2020 06:49:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.oras.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Week of Go Test</title>
+      <link>https://www.oras.me/posts/a-week-of-go-test/</link>
+      <pubDate>Sat, 28 Mar 2020 06:49:45 +0000</pubDate>
+      
+      <guid>https://www.oras.me/posts/a-week-of-go-test/</guid>
+      <description>Hello world!
+func main() { } </description>
+    </item>
+    
+  </channel>
+</rss>
