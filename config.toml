@@ -7,7 +7,7 @@ theme = "hyde"
   main = [
       {Name = "Github", URL = "https://github.com/orasik/"},
       {Name = "LinkedIn", URL = "https://www.linkedin.com/in/oras-al-kubaisi-10201727/"},
-      {Name = "Twitter", URL = "https://www.twitter.com/orasik"},
+      {Name = "Twitter", URL = "https://www.twitter.com/orask"},
       {Name = "Flickr", URL = "https://www.flickr.com/orasik"}
   ]
 
