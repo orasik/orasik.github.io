@@ -184,5 +184,7 @@ go tool cover -func app.out
 
 
 ### Resources
+
 [Go Test package](https://golang.org/pkg/testing/)
+
 [Go Unit Tests: Tips from the Trenches](https://www.red-gate.com/simple-talk/dotnet/software-testing/go-unit-tests-tips-from-the-trenches/)
