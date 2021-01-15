@@ -83,6 +83,12 @@ html {
   /* font-size: 28px; */
 }
 
+.sidebar-about h3 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "PT Sans", serif;
+  /* font-size: 28px; */
+}
 /* Sidebar nav */
 .sidebar-nav {
   padding-left: 0;
