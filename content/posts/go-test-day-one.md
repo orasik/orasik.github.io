@@ -1,10 +1,10 @@
 ---
 title: "Go Test - Day One"
 date: 2020-03-30T06:03:28+01:00
-categories: [go,test,concepts,cli,subtests,coverage,skipping]
-tags: [go,test]
+categories: [go, test, concepts, cli, subtests, coverage, skipping]
+tags: [go, test]
 description: "Go test, how to, cli options, coverage and essential information about testing in Go lang"
-draft: false
+draft: true
 ---
 
 In this post, I wil start with essential information about Go test for those who are new to Go or can be just a refresher about Go testing.
@@ -13,13 +13,11 @@ To start, there are a hard requirements for writing Go tests:
 
 - Test file name `should` have `_test` suffix. For example: `config_test.go`.
 - Test file `should` be in the same folder (package) of the function to be tested.
-- Test function `should` start with `Test` prefix as `TextXxx` where first letter of `Xxx` can not be a small letter, for example: `func TestValidConfig(t *testing.T)` or `func Test_Missing_Values(t *testing.T).
+- Test function `should` start with `Test` prefix as `TextXxx` where first letter of `Xxx` can not be a small letter, for example: `func TestValidConfig(t *testing.T)` or `func Test_Missing_Values(t \*testing.T).
 - Test function `should` have the `t *testing.T` argument. (Explain why).
 - Test file package `can` be the same as function package if you're testing internal functions but `preferred` to be `package_test`. If you're testing `config` package then the package in test file should be `config_test` unless there is a private function in test where you can not call from external package then you can use `config` package inside the test file.
 
-
 ## Some concepts regarding testing in Go.
-
 
 ### Go test cli options
 
@@ -40,11 +38,13 @@ go test . -v
 ```bash
 go test -run ToUpper
 ```
+
 This will run the tests for `ToUppercase` function only. Now if you want to run just a sub tests matching a string you can use:
 
 ```bash
 go test -run Upper/Leading
 ```
+
 This will run just subtests for `ToUppercase` function. The output of the previous command for the test mentioned above will be:
 
 ```
@@ -86,6 +86,7 @@ go test ./... -test.short
 ```
 
 Go code:
+
 ```go
 func TestTimeConsuming(t *testing.T) {
     if testing.Short() {
@@ -96,7 +97,9 @@ func TestTimeConsuming(t *testing.T) {
 ```
 
 ### Subtests
+
 Sometimes writing many testing functions can lead to lots of duplicates in mock data or verbose output so you might want to write a function and have subtests inside. For example, if you want to test a function that takes a string and return it upper case, you want to check if the function can take white space in the begining or end of string so rather than writing 3 functions to check:
+
 - Leading white space.
 - Trailing white space.
 - Both
@@ -164,6 +167,7 @@ func TestNewFeature(t *testing.T) {
 ```
 
 ### Generating test coverage
+
 To create a coverage profile that you can view later, you can specify coverage file using `go test` command:
 
 ```bash
@@ -181,7 +185,6 @@ Or to view the coverage percentage of each function you can use:
 ```bash
 go tool cover -func app.out
 ```
-
 
 ### Resources
 
