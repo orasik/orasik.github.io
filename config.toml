@@ -5,14 +5,16 @@ theme = "hyde"
 
 [Menus]
   main = [
+      {Name = "Twitter", URL = "https://www.twitter.com/orask"},
       {Name = "Github", URL = "https://github.com/orasik/"},
       {Name = "LinkedIn", URL = "https://www.linkedin.com/in/oras-al-kubaisi-10201727/"},
-      {Name = "Twitter", URL = "https://www.twitter.com/orask"},
       {Name = "Flickr", URL = "https://www.flickr.com/orasik"}
   ]
 
 [params]
-  description = "Software Engineer"
-  themeColor = "theme-base-08"
-  layoutReverse = true
+  description = "Solutions Architect | Building products and sharing my journey <br />
+  <a href="#">Product 1</a>
+  "
+  themeColor = "theme-base-06"
+  layoutReverse = false
   googleAnalytics = "UA-66898165-2"
