@@ -2,30 +2,32 @@
 title: "Testing the Go way - Day Two"
 date: 2020-04-01T22:17:57+01:00
 draft: true
-categories: [go,test,concepts,cli,subtests,coverage,test,example,benchmark]
-tags: [go,test,example,benchmark]
+categories:
+  [go, test, concepts, cli, subtests, coverage, test, example, benchmark]
+tags: [go, test, example, benchmark]
 description: "Go testing, the Go way without using a testing framework. The lack of assert and the 4 types of functions"
 ---
 
 In this article, I will explain how you can write a unit test the Go way using the standard unit test library that ships with Go.
 
 ### TL;DR
+
 - Test package does not have `asserts`.
 - You can use 4 types of functions, `TestXxx`, `BenchmarkXxx`, `Examplexxx` and `TestMain` where:
-    - **TestXxx** with argument `t *testing.T` for unit testing functions. Example: **TestConfig(t *testing.T)**
-    - **BenchmarkXxx** with argument `b *testing.B` for benchmarking functions by running them inside a loop to determine the performance. Example: **BenchmarkConfig(b *testing.B)**.
-    - **Examplexxx** with no arguments which is which will be ran and verified based on output provided. Example: **ExampleConfig()**.
-    - **TestMain** with `m *testing.M` argument for suppressing all testing functions and run own (details)?? //TODO: add example
+  - **TestXxx** with argument `t *testing.T` for unit testing functions. Example: **TestConfig(t \*testing.T)**
+  - **BenchmarkXxx** with argument `b *testing.B` for benchmarking functions by running them inside a loop to determine the performance. Example: **BenchmarkConfig(b \*testing.B)**.
+  - **Examplexxx** with no arguments which is which will be ran and verified based on output provided. Example: **ExampleConfig()**.
+  - **TestMain** with `m *testing.M` argument for suppressing all testing functions and run own (details)?? //TODO: add example
 - With table testing, you can run the test with multiple values and expected results to simplify and enrich the test.
 - Running `go test` will cache the results and if you run it again it will pick results from cache unless you modified or added new tests. (validate)
 
-
 ### Go standard unittest library
+
 Testing Go code using the standard library is different from other languages mainly due to the folder structure (more details [here](/posts/go-test-day-one/)) and the lack of `asserts` in the library.
 
 The way Go does it is to check the value or result and raise an error or fatal if the value is not expected. You still can use logs to display more information if you like.
 
-When testing, the test function ***must*** start with `Test` prefix and have `*testing.T` argument. Example:
+When testing, the test function **_must_** start with `Test` prefix and have `*testing.T` argument. Example:
 
 ```go
 func TestNewFeature(t *testing.T) {
@@ -49,7 +51,6 @@ func TestNewFeature(t *testing.T) {
 }
 ```
 
-
 After the `Test` prefix you can use Capital letters or underscore but you can not use small letter. If you use small letter you'll get a warning in your IDE as below. If you decided to ignore the warning, this will not impact running other tests as `go test` command will just ignore this function.
 
 Code:
@@ -67,7 +68,6 @@ func TestnewFeature(t *testing.T) {
 Result in VSCode:
 
 ![VSCode warning for malformed test name](/images/day2-test-small-letters.png)
-
 
 ### Benchmarking
 
@@ -95,8 +95,8 @@ which means the loop ran **6865275** times with average of **146 nano second** p
 
 //TODO: more about benchmark
 
-
 ### Example
+
 Using `Examples` is a great way to document functions with input and output. Having a comment inside `Example` function with `//Output:`, go test will run it and verify the result with that comment. Let's have an example to make it clearer:
 
 ```go
@@ -109,6 +109,7 @@ func ExampleToUppercase() {
 	// Example of using ToUppercase
 }
 ```
+
 then run the command:
 
 ```bash
@@ -121,7 +122,6 @@ ok      github.com/orasik/play  0.003s
 
 What happend here is `go test` did run the code in `ExampleToUppercase` and checked the output of `fmt.Println` and validated it with comments after **Output**. When the output matched these comments, the test passed. Now try to change the second line of the comment and run the test again, what do you get?
 
-
 ```go
 func ExampleToUppercase() {
 	ToUppercase("  Hello World  ")
@@ -132,6 +132,7 @@ func ExampleToUppercase() {
 	// Something Else
 }
 ```
+
 then run the command:
 
 ```bash
@@ -182,6 +183,7 @@ ok      github.com/orasik/play  0.003s
 ```
 
 # To write about:
+
 - Table testing.
 - Internal testing (with examples and cases why would we need this).
 - Test with VSCode.
