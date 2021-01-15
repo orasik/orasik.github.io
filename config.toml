@@ -12,7 +12,7 @@ theme = "hyde"
   ]
 
 [params]
-  description = "Solutions Architect | Building products and sharing my journey <br /><a href="#">Product 1</a>"
+  description = "Solutions Architect | Building products and sharing my journey"
   themeColor = "theme-base-06"
   layoutReverse = false
   googleAnalytics = "UA-66898165-2"
