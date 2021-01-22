@@ -4,6 +4,8 @@ date: 2021-01-22
 categories: [gpt-3]
 tags: [gpt-3]
 description: "if you are new to OpenAI GPT-3, here is a 10 things you should know about it to manage your expectations and know the limits"
+twitter: true
+twitter-image: "/images/gpt3-10things.png"
 draft: false
 ---
 
