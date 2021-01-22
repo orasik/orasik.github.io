@@ -5,11 +5,9 @@ categories: [gpt-3]
 tags: [gpt-3]
 description: "if you are new to OpenAI GPT-3, here is a 10 things you should know about it to manage your expectations and know the limits"
 twitter: true
-twitter_image: "/images/gpt3-10things.png"
+twitter_image: "images/gpt3-10things.png"
 draft: false
 ---
-
-# 10 things I have learned while developing my first GPT-3 app
 
 I have received my invitation to OpenAI at the end of Nov and started playing around with API two weeks after that. I will list the top 10 things I didn't know or didn't expect as a newcomer to the GPT-3.
 
