@@ -5,6 +5,7 @@ categories: [gpt-3]
 tags: [gpt-3]
 description: "if you are new to OpenAI GPT-3, here is a 10 things you should know about it to manage your expectations and know the limits"
 twitter: true
+twitter_title: "10 things I have learned while developing my first GPT-3 app"
 twitter_image: "images/gpt3-10things.png"
 draft: false
 ---
