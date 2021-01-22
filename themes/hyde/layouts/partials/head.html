@@ -21,9 +21,13 @@
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="{{ .Permalink }}" />
-  <meta property="twitter:title" content=" {{ .Params.twitter_title }}" />
-  <meta property="twitter:description" content=" {{ .Params.Description }}" />
+  <meta property="twitter:title" content="{{ .Params.twitter_title }}" />
+  <meta property="twitter:description" content="{{ .Params.Description }}" />
   <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.twitter_image }}" />
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.twitter_image }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:title" content="{{ .Params.twitter_title }}" />
+  <meta property="og:description" content="{{ .Params.Description }}" />
   {{- end }}
   <!-- CSS -->
   <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/print.css" media="print" />
