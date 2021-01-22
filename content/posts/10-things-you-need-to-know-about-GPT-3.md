@@ -10,7 +10,7 @@ twitter_image: "images/gpt3-10things.png"
 draft: false
 ---
 
-I have received my invitation to OpenAI around mid December and started playing around with API a week after. I will list the top 10 things I didn't know or didn't expect as a newcomer to the GPT-3.
+I have received my invitation to OpenAI around mid December and started playing with API a week after. In this blog post, I will list the top 10 things I didn't know or didn't expect as a newcomer to the GPT-3. The context is aimed for developers but most of the the information is still relevant for non developers too.
 
 ## TL;DR
 
@@ -23,7 +23,7 @@ If you don't like details, here is a TL;DR:
 5. You cannot go live immediately, you need open ai team approval.
 6. The safety of the generated text is your responsibility.
 7. There is a slack channel to ask questions and learn from each other's and the support team replies to people directly.
-8. There are some restrictions. Not every app idea will be approved.
+8. There are some restrictions, not every app will be approved.
 9. You can share your beta app with up to 5 users till you get the public release approval from OpenAI.
 10. There are lots of improvements going on, so this list might change over time.
 
@@ -56,7 +56,7 @@ The documentation has excellent examples to show you how to do the following:
 - Classification.
 - Idea Generator.
 
-This blog post is aimed for developers, and in this context, the integration with OpenAI API is fairly simple. In the playground, you'll have an export button to export your prompt to either `cURL` or `Python` code, but in the documentation, you will find various community libraries including:
+The integration with OpenAI API is fairly simple. In the playground, you'll have an export button to export your prompt to either `cURL` or `Python` code, but in the documentation, you will find various community libraries including:
 
 - C#/ASP.NET
 - Go lang.
@@ -87,7 +87,7 @@ One of these libraries is [Bad Word](https://github.com/web-mech/badwords#readme
 
 By now, you might think that this is overwhelming, but the reality is `you are not alone`. There is a slack channel for members where you can ask questions, share ideas, ask the support team and even share your app when you're ready to go live.
 
-### 8. There are some restrictions. Not every app idea will be approved.
+### 8. There are some restrictions, not every app will be approved.
 
 There are some restrictions for apps that are considered high-risk. For instance, you cannot make apps that send automatically to social media without a human in the middle.
 
@@ -101,7 +101,7 @@ There is also a list of high-risk domains that will be hard to get approval. The
 
 This includes users in your company, beta testers or public users. Any number above 5 is considered live and will result in revoking your access and might lead to permanent loss of your API key.
 
-### 10. There are lots of improvements going on, so this list might change over time ;)
+### 10. There are lots of improvements going on, so this list might change over time.
 
 In my short time as a member, there were lots of improvements. The OpenAI team have added safety measures best practices list to help developers ensure their apps are safe. The team is also working on some enhancements to speed up the approval process, and the first step was introducing the lengthy form mentioned in point 5.
 
