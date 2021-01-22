@@ -1,5 +1,5 @@
 ---
-title: "In the waiting list for OpenAI? here are 10 things you should know about GPT-3"
+title: "10 things I have learned while developing my first GPT-3 app"
 date: 2021-01-22
 categories: [gpt-3]
 tags: [gpt-3]
@@ -9,7 +9,7 @@ twitter-image: "/images/gpt3-10things.png"
 draft: false
 ---
 
-## In the waiting list for OpenAI? here are 10 things you should know about GPT-3
+# 10 things I have learned while developing my first GPT-3 app
 
 I have received my invitation to OpenAI at the end of Nov and started playing around with API two weeks after that. I will list the top 10 things I didn't know or didn't expect as a newcomer to the GPT-3.
 
