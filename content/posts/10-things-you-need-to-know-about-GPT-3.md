@@ -34,7 +34,7 @@ There are some examples and videos to show you how you can use the playground an
 
 ### 2. Choosing the most accurate engine can be very expensive.
 
-At the time of writing this blog, The most accurate engine is called `DaVinci`. While it would appeal that everyone should use, practically this is not the case mainly due to the price.
+At the time of writing this blog, The most accurate engine is called `Davinci`. While it would appeal that everyone should use, practically this is not the case mainly due to the price.
 
 `Davinci` is 10 times more expensive than the next engine `curie` and at the moment you get charged by the number of tokens sent/received from the API. These tokens include your prompt.
 
@@ -97,4 +97,4 @@ There is also a list of high-risk domains that will be hard to get approval. The
 
 In my short time as a member, there were lots of improvements. The OpenAI team have added safety measures best practices list to help developers ensure their apps are safe. The team is also working on some enhancements to speed up the approval process, and the first step was introducing the lengthy form mentioned in point 5.
 
-That's all if you have feedback or questions, please reach out at [@orask][https://www.twitter.com/orask]
+That's all if you have feedback or questions, please reach out at [@orask](https://www.twitter.com/orask)
