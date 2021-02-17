@@ -24,13 +24,21 @@ I decided to send my first email update to all registered users informing them a
 ## Metrics after 24 hours
 
 Open rate: 20.5%
+
 Unsubscribed: 1%
+
 Bounced: 0.54%
+
 Spam report: 0%
+
 Click rate: 0.8%
+
 Open on desktop: 72%
+
 Open on mobile: 28%
+
 Click rate on desktop: 67%
+
 Click rate on mobile: 33%
 
 ## Low click rate!
