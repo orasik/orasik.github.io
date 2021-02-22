@@ -10,7 +10,7 @@ twitter_image: "images/first-email.png"
 draft: false
 ---
 
-![First Email Stats](images/first-email.png)
+![First Email Stats](/images/first-email.png)
 
 
 After launching [Job Description AI - Professional job description generator with few clicks](https://jobdescription.ai) on [Product Hunt](https://www.producthunt.com/posts/job-description-ai), I spent the following three weeks fixing bugs and adding features requested by users to improve the service.
@@ -20,7 +20,7 @@ I have created a notion page for releases and included a link inside the portal 
 I decided to send my first email update to all registered users informing them about the progress in the last three weeks.
 
 ## The context
-1. I use [Hupspot](https://www.hubspot.com) to send up to 2000 per month for free.
+1. I use [Hubspot](https://www.hubspot.com) to send up to 2000 per month for free.
 2. I started the email by thanking everyone for their time trying the service. I also offered users to delete their account if they do not use it anymore (privacy).
 3. Listing a screenshot of each new feature, here is a [link to the email](https://preview.hs-sites.com/_hcms/preview/content/41619626767?portalId=9240276&_preview=true&cacheBust=0&preview_key=KgkNcFjc&from_buffer=false).
 
