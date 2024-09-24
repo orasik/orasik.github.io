@@ -2,13 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" {{with .Site.LanguageCode}} xml:lang="{{.}}" lang="{{.}}" {{end}}>
 
 <head>
-  <link href="https://gmpg.org/xfn/11" rel="profile" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   {{ hugo.Generator }} {{if isset .Params "tags"}}
   <meta name="keywords" content="{{ delimit .Params.Tags " , " }}" /> {{end}}
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <script defer data-domain="oras.me" src="https://plausible.io/js/script.js"></script>
   {{ if .IsHome -}}
   <title>{{ .Site.Title }}</title>
   {{- else -}}
