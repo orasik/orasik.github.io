@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai on Oras Al-Kubaisi</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <description>Recent content in Ai on Oras Al-Kubaisi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can AI agents do scraping without guidance? Yes</title>
+      <link>http://localhost:1313/posts/ai-agents-for-scraping/</link>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-agents-for-scraping/</guid>
+      <description>AI Agents - for scraping. With agents able to run code safely now, I wanted to test their abilities to scrape data from websites without specifying any input requirements such as elements or classes. The result is shockingly good, considering I spent less than 4 hours doing it.&#xA;The challenge I didn&amp;rsquo;t want to use a fully-fledged agent framework; I wanted to write one agent that would give feedback to itself if there were any errors to learn and iterate.</description>
+    </item>
+    <item>
+      <title>10 things I have learned while developing my first GPT-3 app</title>
+      <link>http://localhost:1313/posts/10-things-you-need-to-know-about-gpt-3/</link>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/10-things-you-need-to-know-about-gpt-3/</guid>
+      <description>I have received my invitation to OpenAI around mid December and started playing with API a week after. In this blog post, I will list the top 10 things I didn&amp;rsquo;t know or didn&amp;rsquo;t expect as a newcomer to the GPT-3. The context is aimed for developers but most of the the information is still relevant for non developers too.&#xA;TL;DR If you don&amp;rsquo;t like details, here is a TL;DR:</description>
+    </item>
+  </channel>
+</rss>

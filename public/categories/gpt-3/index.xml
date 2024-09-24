@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gpt-3 on Oras Al-Kubaisi</title>
+    <link>http://localhost:1313/categories/gpt-3/</link>
+    <description>Recent content in Gpt-3 on Oras Al-Kubaisi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/gpt-3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 things I have learned while developing my first GPT-3 app</title>
+      <link>http://localhost:1313/posts/10-things-you-need-to-know-about-gpt-3/</link>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/10-things-you-need-to-know-about-gpt-3/</guid>
+      <description>I have received my invitation to OpenAI around mid December and started playing with API a week after. In this blog post, I will list the top 10 things I didn&amp;rsquo;t know or didn&amp;rsquo;t expect as a newcomer to the GPT-3. The context is aimed for developers but most of the the information is still relevant for non developers too.&#xA;TL;DR If you don&amp;rsquo;t like details, here is a TL;DR:</description>
+    </item>
+  </channel>
+</rss>

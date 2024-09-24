@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en-us" lang="en-us" >
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link href="https://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Hugo 0.124.1"> 
+  <meta name="keywords" content="ai , text , n-grams , nlp" /> 
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>How to detect AI generated text - Analysing n-grams</title>
+  <meta name="description"
+    content="How to detect AI generated text? This is " />
+
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="http://localhost:1313/posts/detecting-ai-generated-text-ngrams/" />
+  <meta property="twitter:title" content="How to detect AI generated text - Analysing n-grams" />
+  <meta property="twitter:description" content="How to detect AI generated text? This is " />
+  <meta property="twitter:image" content="http://localhost:1313/images/ai-generated-text-ngrams.jpg" />
+  <meta property="og:image" content="http://localhost:1313/images/ai-generated-text-ngrams.jpg" />
+  <meta property="og:url" content="http://localhost:1313/posts/detecting-ai-generated-text-ngrams/" />
+  <meta property="og:title" content="How to detect AI generated text - Analysing n-grams" />
+  <meta property="og:description" content="How to detect AI generated text? This is " />
+  
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/print.css" media="print" />
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/poole.css" />
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/syntax.css" />
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/hyde.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png" />
+  <link rel="shortcut icon" href="/favicon.png" />
+</head>
+
+</html>
+  <body class="theme-base-06 ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://localhost:1313/"><h3>Oras Al-Kubaisi</h3></a>
+      <p class="lead">
+       AI Consultant, Data Scientist, and Software Engineer 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="http://localhost:1313/">Home</a> </li>
+        <li><a href="https://www.flickr.com/orasik"> Flickr </a></li><li><a href="https://github.com/orasik/"> Github </a></li><li><a href="https://www.linkedin.com/in/oras-al-kubaisi/"> LinkedIn </a></li><li><a href="https://www.x.com/orask"> X </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2024. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>How to detect AI generated text - Analysing n-grams</h1>
+  <time datetime=2024-09-06T00:00:00Z class="post-date">Fri, Sep 6, 2024</time>
+  <p>Detecting AI generated text is becoming more important than ever and the use cases are endless. First examples come to mind is blog articles, academic papers, school assignments and so on.</p>
+<p>There are many companies now offering services to detect AI content, and I got curious on how these companies are doing it. In the AI era, the fastest solution would be using multiple LLMs to identify if the text is AI generated or not, but how we can determine the accuracy?</p>
+<p>So I decided to go back to basics and analyse AI vs Human generated text using NLP methods, and this post is about analysing n-gram frequency for AI vs Human content. This will be done by extracting bigrams, trigrams, and 4-grams for each content, and check the frequency (repetition) of these n-grams in the content.</p>
+<p>The dataset used for this analysis is <a href="https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset/data">DAIGT V2</a></p>
+<h2 id="tldr">TL;DR</h2>
+<ol>
+<li>Bigram frequency is almost the same for both AI and Human content.</li>
+<li>More AI content has frequency of 3 or higher for trigrams.</li>
+<li>More AI content has frequency of 3 or higher for 4-gram.</li>
+</ol>
+
+</div>
+
+
+    </main>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66898165-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-66898165-2');
+</script>
+
+  </body>
+</html>

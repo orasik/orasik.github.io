@@ -1,28 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://www.oras.me/posts/a-week-of-go-test/</loc>
-    <lastmod>2020-03-28T06:49:45+00:00</lastmod>
+    <loc>http://localhost:1313/tags/agents/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/agents/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ai/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai-agents-for-scraping/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/llm/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/email/</loc>
+    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/email/</loc>
+    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/generator/</loc>
+    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hubspot/</loc>
+    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/job-description/</loc>
+    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/job-description-generator/</loc>
+    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/marketing/</loc>
+    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/marketing/</loc>
+    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/metrics_first_email_update_to_users/</loc>
+    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/10-things-you-need-to-know-about-gpt-3/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/app/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gpt-3/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/gpt-3/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
   </url>
-  
-  <url>
-    <loc>https://www.oras.me/</loc>
-    <lastmod>2020-03-28T06:49:45+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.oras.me/posts/</loc>
-    <lastmod>2020-03-28T06:49:45+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.oras.me/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.oras.me/tags/</loc>
-  </url>
-  
 </urlset>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marketing on Oras Al-Kubaisi</title>
+    <link>http://localhost:1313/categories/marketing/</link>
+    <description>Recent content in Marketing on Oras Al-Kubaisi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/marketing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Metrics from my first email update to all users</title>
+      <link>http://localhost:1313/posts/metrics_first_email_update_to_users/</link>
+      <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/metrics_first_email_update_to_users/</guid>
+      <description>After launching Job Description AI - Professional job description generator with few clicks on Product Hunt, I spent the following three weeks fixing bugs and adding features requested by users to improve the service.&#xA;I have created a notion page for releases and included a link inside the portal to present the progress to regular users, but how do I inform everyone?&#xA;I decided to send my first email update to all registered users informing them about the progress in the last three weeks.</description>
+    </item>
+  </channel>
+</rss>

@@ -107,4 +107,4 @@ In my short time as a member, there were lots of improvements. The OpenAI team h
 
 Finally, special thanks to [@Harish Garg](https://www.twitter.com/harishkgarg) for providing feedback and enriching this post.
 
-If you have feedback or questions, please reach out at [@orask](https://www.twitter.com/orask)
+If you have feedback or questions, please reach out at [@orask](https://www.x.com/orask)
