@@ -15,4 +15,3 @@ theme = "hyde"
   description = "AI Consultant, Data Scientist, and Software Engineer"
   themeColor = "theme-base-06"
   layoutReverse = false
-  googleAnalytics = "UA-66898165-2"
